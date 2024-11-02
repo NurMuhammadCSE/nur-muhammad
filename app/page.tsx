@@ -1,3 +1,5 @@
+import Approach from "@/components/Approach";
+import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
@@ -13,6 +15,8 @@ const page = () => {
         <Hero></Hero>
         {/* <Grid></Grid> */}
         <RecentProjects></RecentProjects>
+        <Approach></Approach>
+        <Footer></Footer>
       </div>
     </main>
   );
